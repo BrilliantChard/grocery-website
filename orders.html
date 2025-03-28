@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice-html</title>
+    <link rel="stylesheet" href="orders.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Transactions Page</h1>
+      <p id="main-p">
+        Make your purchase proffessional with Otiato Enterprises.
+      </p>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#Orders">Orders</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h2>Home</h2>
+        <p>This is the home section of the webpage.</p>
+      </section>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>This section contains information about the webpage.</p>
+      </section>
+      <section id="Orders">
+        <h2>Order with Us</h2>
+        <p>You can Order with us through this section.</p>
+      </section>
+      <form action="">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+        <br /><br />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter email"
+          required
+        />
+        <br /><br />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter password"
+          required
+        />
+        <br /><br />
+        <label for="phoneInput">Phone Number</label>
+        <input
+          type="tel"
+          id="phoneInput"
+          name="phoneInput"
+          placeholder="Enter Phone Number"
+          required
+        /><br /><br />
+        <p>Select the type of fish you would like:</p>
+
+        <select id="dropdown" name="dropdown">
+          <option value="option1">Tilapia (Ngege)</option>
+          <option value="option2">Mbuta</option>
+          <option value="option3">Omena</option>
+          <option value="option4">Mumi</option>
+          <option value="option5">Sardines</option>
+          <option value="option6">Wiu</option>
+          <option value="option7">Adel</option>
+          <option value="option8">Chicken</option>
+        </select>
+        <br /><br />
+        <p>Select your preferred day and time of delivery</p>
+        <input type="date" id="datePicker" name="datePicker" /><br /><br />
+        <input type="time" id="timePicker" name="timePicker" /><br /><br />
+        <br />
+        <p>
+          Do you have any picture of a type of fish you would like us to put in
+          store next time1 <br />
+          Let us see it
+        </p>
+        <input
+          type="file"
+          id="fileUpload"
+          name="fileUpload"
+          accept=".jpg, .jpeg, .png, .gif"
+        /><br /><br />
+        <label for="message">Leave a Message for us:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          cols="50"
+          placeholder="Fill in your thoughts"
+          required
+        ></textarea>
+        <br /><br />
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+        <br /><br />
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes" />
+        <label for="subscribe">Subscribe to our newsletter</label><br /><br />
+        <br />
+        <input
+          type="color"
+          id="colorPicker"
+          name="colorPicker"
+          value="#000000"
+        /><br />
+        <p>
+          Do you have a website that you would love us to see? <br />
+          Place it here so we support you!!
+        </p>
+        <br />
+        <input
+          type="url"
+          id="websiteInput"
+          name="websiteInput"
+          placeholder="Website URL"
+        /><br /><br />
+        <p>
+          Or do you want to get back to the main web page? <br />
+          Tarry not,,,it's <a href="index.html">here</a>
+        </p>
+      </form>
+      <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>
+          Have questions? Need assistance with your order? We're here to help!
+          😊
+        </p>
+        <p>📞 <strong>Call Us:</strong> +254 700 000 000</p>
+        <p>
+          📩 <strong>Email:</strong>
+          <a href="mailto:info@otiatosfisheries.com"
+            >info@otiatosfisheries.com</a
+          >
+        </p>
+        <p>📍 <strong>Location:</strong> Dunga Beach, Kisumu, Kenya</p>
+        <p>🌍 Follow us on social media for updates and special offers:</p>
+        <ul>
+          <li><a href="https://twitter.com">Twitter</a></li>
+          <li><a href="https://www.facebook.com">Facebook</a></li>
+          <li><a href="https://github.com">Github</a></li>
+          <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+          <li><a href="https://www.instagram.com">Instagram</a></li>
+          <li><a href="https://www.tiktok.com">TikTok</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Otiato's Fisheries Market | Follow us on:</p>
+      <p>
+        <a href="#">Facebook</a> | <a href="#">Instagram</a> |
+        <a href="#">Twitter</a> | <a href="#">LinkedIn</a> |
+        <a href="#">TikTok</a>
+      </p>
+    </footer>
+  </body>
+</html>
